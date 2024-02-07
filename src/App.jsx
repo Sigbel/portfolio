@@ -1,12 +1,15 @@
-import './App.css'
+import { render } from "react-dom";
+import "./App.css";
+import earthAnimation from "./utils/three";
+
+// Components
+import Footer from "./components/Footer/Footer";
 
 function App() {
-
   return (
     <>
-      <h2>Portofolio Inicio</h2>
-    </>
-  )
-}
 
-export default App
+    </>
+  );
+}
+export default App;
