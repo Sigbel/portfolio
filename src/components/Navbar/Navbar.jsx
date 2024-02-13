@@ -1,16 +1,21 @@
-import styles from "./Navbar.module.css"
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className={styles.navbar}>
-        <div className={styles.navbar_logo}>Sigbel</div>
-        <div className={styles.navbar_itens}>
-          <span>Home</span>
-          <span>Portfolio</span>
-          <span>Outros</span>
+    <header>
+      <div className="navbar">
+        <div className="navbar_logo">
+          <a href="#">Sigbel</a>
         </div>
-    </div>
-  )
-}
+        <div className="navbar_items">
+          <a href="#about">Sobre</a>
+          <a href="#projects">Projetos</a>
+          <a href="#contact">Contato</a>
+          <a href="#curriculum" id="cv_btn">Currículo</a>
+        </div>
+      </div>
+    </header>
+  );
+};
 
-export default Navbar
+export default Navbar;

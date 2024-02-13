@@ -1,11 +1,9 @@
-import styles from "./Footer.module.css"
+import "./Footer.css"
 
 const Footer = () => {
-    const text = "Olá mundo!"
-
   return (
-    <footer className={styles.footer}>
-        <span>{text}</span>
+    <footer className="footer">
+        <span>Henrique Bélgamo © 2024</span>
     </footer>
   )
 }
