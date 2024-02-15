@@ -5,7 +5,9 @@ const Navbar = () => {
     <header>
       <div className="navbar">
         <div className="navbar_logo">
-          <a href="#">Sigbel</a>
+          <a href="#">
+            <img src="src\assets\images\icons\hbs_ico.svg" alt="hbs" id="logo_ico"/>
+          </a>
         </div>
         <div className="navbar_items">
           <a href="#about">Sobre</a>

@@ -14,7 +14,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="root">
+    <>
       <Navbar></Navbar>
       <BrowserRouter>
         <Routes>
@@ -23,7 +23,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Footer></Footer>
-    </div>
+    </>
   );
 }
 export default App;

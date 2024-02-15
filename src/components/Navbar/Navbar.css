@@ -3,10 +3,13 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  right: 0;
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  padding: 0 30px;
   background-color: #111;
   color: white;
-  padding: 10px;
-  width: 100%;
 }
 
 .navbar_logo a {
@@ -18,17 +21,41 @@
   padding: 10px;
   text-decoration: none;
   color: white;
-  margin-right: 20px;
+  margin: 10px;
+  border-radius: 4px;
 }
 
 .navbar_items a:hover {
-  background: #737e82;
-  border-radius: 4px;
+  background: #5b7a88;
+  transition: ease-in-out 400ms;
+}
+
+.navbar_items a:not(:hover) {
   transition: ease-in-out 400ms;
 }
 
 #cv_btn {
-  background-color: #4caf50;
+  background-color: #961f37;
   padding: 8px 22px;
   border-radius: 4px;
+}
+
+#cv_btn:hover {
+  background: #8e4352;
+  transition: ease-in-out 600ms;
+}
+
+#logo_ico {
+  width: 40px;
+  height: 47px;
+  background: white;
+}
+
+#logo_ico:hover {
+  background: #5b7a88;
+  transition: ease-in-out 800ms;
+}
+
+#logo_ico:not(:hover) {
+  transition: ease-in-out 800ms;
 }

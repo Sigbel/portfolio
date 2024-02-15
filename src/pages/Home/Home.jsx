@@ -6,6 +6,7 @@ import Background from "./Background";
 const Home = () => {
   return (
     <div className="container_initial">
+      <Background></Background>
       <div className="sidenav">
         <a href="#about">
           <img src="src\assets\images\icons\github_ico.svg" alt="github" />
@@ -15,12 +16,18 @@ const Home = () => {
         </a>
         <div className="sidenav_line"></div>
       </div>
-      <div id="landing">
-        <Background></Background>
-      </div>
-      <div id="about">Sobre</div>
-      <div id="projects">Projetos</div>
-      <div id="contact">Contato</div>
+      <section id="landing">
+        <div id="title_name">
+          <h1>Henrique Bélgamo</h1>
+          <h2>Desenvolvedor Full-Stack</h2>
+        </div>
+        <a href="#about">
+          <span className="scroll_down"></span>
+        </a>
+      </section>
+      <section id="about">Sobre</section>
+      <section id="projects">Projetos</section>
+      <section id="contact">Contato</section>
     </div>
   );
 };
