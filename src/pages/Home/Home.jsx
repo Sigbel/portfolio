@@ -3,12 +3,15 @@ import "./Home.css";
 // Hooks
 import { useEffect } from "react";
 
+// Functions
+import typewriting from "../../utils/typewriting";
+import Projects from "../../components/Projects/Projects";
+
 // Components
 import Background from "../../components/Background/Background";
 import Landing from "../../components/Landing/Landing";
-
-// Functions
-import typewriting from "../../utils/typewriting";
+import About from "../../components/About/About";
+import Contact from "../../components/Contact/Contact";
 
 const Home = () => {
   useEffect(() => {
@@ -28,9 +31,9 @@ const Home = () => {
         <div className="sidenav_line"></div>
       </div>
       <Landing></Landing>
-      
-      <section id="projects">Projetos</section>
-      <section id="contact">Contato</section>
+      <About></About>
+      <Projects></Projects>
+      <Contact></Contact>
     </div>
   );
 };
