@@ -20,33 +20,17 @@
 
 #title_name {
   color: white;
+  height: 65px;
+  width: 27em;
 }
 
 #title_name h1 {
   color: #6d6d6d;
   text-transform: uppercase;
   margin-bottom: 11px;
-  font-size: 0.8em;
+  font-size: 1em;
   letter-spacing: 5px;
 }
-
-/* #title_name h2{
-  overflow: hidden;
-  border-right: 0.15em solid orange;
-  white-space: nowrap;
-  letter-spacing: 0.15em;
-  animation: typing 3.5s steps(40, end) blink-caret 0.75s step-end infinite;
-}
-
-@keyframes typing {
-  from {width: 0}
-  to {width: 100%}
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-} */
 
 .sidenav {
   height: 100%;
@@ -122,4 +106,46 @@
     margin-top: 40px;
     opacity: 0;
   }
+}
+
+#text_typewriting {
+  display: inline-block;
+  vertical-align: middle;
+  color: #ffff;
+  letter-spacing: 0.15em;
+  font-size: 50px;
+  text-wrap: nowrap;
+  
+}
+
+#cursor {
+  display: inline-block;
+  vertical-align: middle;
+  width: 3px;
+  height: 50px;
+  background-color: #5b7a88;
+  animation: blink-caret .75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #5b7a88;
+  }
+}
+
+#fixed_title {
+  display: flex;
+  align-items: center;
+}
+
+.title_hline {
+  width: 100%;
+  height: 1px;
+  background: white;
+  margin-left: 10px;
+
 }
