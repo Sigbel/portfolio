@@ -10,6 +10,7 @@
   padding: 0 30px;
   background-color: #111;
   color: white;
+  z-index: 100;
 }
 
 .navbar_logo a {
@@ -23,15 +24,14 @@
   color: white;
   margin: 10px;
   position: relative;
-  /* border-radius: 4px; */
 }
 
 .navbar_items a:after {
   content: "";
   position: absolute;
-  margin: 6px;
-  width: 40px;
-  height: 50px;
+  margin: 4.5px;
+  width: 10px;
+  height: 45px;
   transform: rotate(
     45deg
   );
@@ -56,8 +56,8 @@
 #cv_btn:after {
   content: "";
   position: absolute;
-  margin: 13px;
-  width: 40px;
+  margin: 10px;
+  width: 10px;
   height: 40px;
   transform: rotate(
     45deg

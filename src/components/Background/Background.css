@@ -130,3 +130,9 @@ html {
     transform: translateY(-2000px);
   }
 }
+
+.container {
+  z-index: 0;
+  position: absolute;
+  background: transparent;
+}
