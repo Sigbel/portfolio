@@ -1,13 +1,20 @@
 import "./Home.css";
 
+// Hooks
+import { useEffect } from "react";
+
 // Components
-import Background from "./Background";
+import Background from "../../components/Background/Background";
+import Landing from "../../components/Landing/Landing";
 
 // Functions
 import typewriting from "../../utils/typewriting";
 
 const Home = () => {
-  typewriting();
+  useEffect(() => {
+    typewriting();
+  }, []);
+
   return (
     <div className="container_initial">
       <Background></Background>
@@ -20,23 +27,8 @@ const Home = () => {
         </a>
         <div className="sidenav_line"></div>
       </div>
-      <section id="landing">
-        <div id="title_name">
-          <h1>Henrique Bélgamo</h1>
-          <div id="fixed_title">
-            <h2>Desenvolvedor</h2>
-            <div className="title_hline"></div>
-          </div>
-          <h2 id="title_prof">
-            <div id="text_typewriting"></div>
-            <div id="cursor"></div>
-          </h2>
-        </div>
-        <a href="#about">
-          <span className="scroll_down"></span>
-        </a>
-      </section>
-      <section id="about">Sobre</section>
+      <Landing></Landing>
+      
       <section id="projects">Projetos</section>
       <section id="contact">Contato</section>
     </div>
