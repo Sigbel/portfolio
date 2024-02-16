@@ -1,9 +1,14 @@
-import "./Projects.css"
+import "./Projects.css";
+import Swipercard from "./Swipercard.jsx";
 
 const Projects = () => {
   return (
-    <section id="projects">Projetos</section>
-  )
-}
+    <section id="projects">
+      <div className="container">
+        <Swipercard></Swipercard>
+      </div>
+    </section>
+  );
+};
 
-export default Projects
+export default Projects;

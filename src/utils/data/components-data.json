@@ -1,0 +1,58 @@
+{
+  "cards_carrousel": [
+    {
+      "title": "Txt Layout Validator",
+      "content": "Card de texte. Lorem ipsum dolor sit amet, consectetur",
+      "image": {
+        "url": "src/assets/portfolio/b_layout_v.png",
+        "alt": "Txt Validator"
+      },
+      "publishDate": "05 de mar. 2023"
+    },
+    {
+      "title": "Booking Manager",
+      "content": "Card de texte. Lorem ipsum dolor sit amet, consectetur",
+      "image": {
+        "url": "src/assets/portfolio/bbooking_manager.png",
+        "alt": "Booking Manager"
+      },
+      "publishDate": "06 de mar. 2023"
+    },
+    {
+      "title": "Calculadora",
+      "content": "Card de texte. Lorem ipsum dolor sit amet, consectetur",
+      "image": {
+        "url": "src/assets/portfolio/calculator-figure.png",
+        "alt": "Calculadora"
+      },
+      "publishDate": "07 de mar. 2023"
+    },
+    {
+      "title": "CRUD with C#",
+      "content": "Card de texte. Lorem ipsum dolor sit amet, consectetur",
+      "image": {
+        "url": "src/assets/portfolio/crud_c_sql_server.png",
+        "alt": "CRUD with C#"
+      },
+      "publishDate": "08 de mar. 2023"
+    },
+    {
+      "title": "Personal Portfolio",
+      "content": "Card de texte. Lorem ipsum dolor sit amet, consectetur",
+      "image": {
+        "url": "src/assets/portfolio/hb_portfolio.png",
+        "alt": "Personal Portfolio"
+      },
+      "publishDate": "09 de mar. 2023"
+    },
+    {
+      "title": "Python Training Projects",
+      "content": "Card de texte. Lorem ipsum dolor sit amet, consectetur",
+      "image": {
+        "url": "src/assets/portfolio/python_training_projects.png",
+        "alt": "Training Projects"
+      },
+      "publishDate": "10 de mar. 2023"
+    }
+  ]
+}
