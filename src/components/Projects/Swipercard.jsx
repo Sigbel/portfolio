@@ -40,8 +40,6 @@ const Swipercard = () => {
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
     >
       {data.map((item) => (
         <SwiperSlide key={item.id}>
