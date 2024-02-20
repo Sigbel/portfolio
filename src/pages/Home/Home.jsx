@@ -1,3 +1,4 @@
+// Styles
 import "./Home.css";
 
 // Hooks
@@ -5,13 +6,13 @@ import { useEffect } from "react";
 
 // Functions
 import typewriting from "../../utils/typewriting";
-import Projects from "../../components/Projects/Projects";
+import Projects from "../../components/Common/Projects/Projects";
 
 // Components
-import Background from "../../components/Background/Background";
-import Landing from "../../components/Landing/Landing";
-import About from "../../components/About/About";
-import Contact from "../../components/Contact/Contact";
+import Background from "../../components/Common/Background/Background";
+import Landing from "../../components/Common/Landing/Landing";
+import About from "../../components/Common/About/About";
+import Contact from "../../components/Common/Contact/Contact";
 
 const Home = () => {
   useEffect(() => {

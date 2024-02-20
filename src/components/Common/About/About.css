@@ -1,0 +1,98 @@
+#about {
+  color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background: #111;
+}
+
+.container_about,
+.container_tech,
+.more_about {
+  right: 0;
+  left: 0;
+  max-width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container_tech {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.container_tech svg {
+  width: 3em;
+  height: 3em;
+}
+
+.container_tech svg:hover {
+  transform: scale(1.07);
+}
+
+.description h1 {
+  margin-bottom: 40px;
+}
+
+.description span,
+li {
+  font-size: 1.25em;
+}
+
+.description span {
+  margin-bottom: 25px;
+}
+
+.description li {
+  margin-left: 20px;
+}
+
+.photo img {
+  border-radius: 25px;
+}
+
+.description {
+  width: 50%;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+}
+
+.description span.highlight_text {
+  font-size: 20px;
+  color: #961f37;
+  font-weight: bold;
+}
+
+.btn_more_about {
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 4rem;
+  padding: 0 3rem 0 3rem;
+  border: 2.5px solid #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(253, 253, 253);
+  margin-top: 25px;
+}
+
+.btn_more_about:hover {
+  border-color: #961f37;
+  transition: ease-in-out 400ms;
+}
+
+.btn_more_about:not(:hover) {
+  transition: ease-in-out 400ms;
+}
+
+#highlight {
+  font-size: 25px;
+  color: #961f37;
+}
