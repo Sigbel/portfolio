@@ -1,4 +1,4 @@
-// Css
+// Styles
 import "./Landing.css";
 
 const Landing = () => {

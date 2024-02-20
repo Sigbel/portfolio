@@ -1,4 +1,4 @@
-// Icons
+// Icon
 import {
   DiJavascript,
   DiReact,

@@ -1,8 +1,9 @@
+// Styles
+import { customScrollbar } from "../../../styles/styles";
+
 // Chakra Ui
 import { Flex, Heading, Image, Text, VStack } from "@chakra-ui/react";
 
-// Styles
-import { customScrollbar } from "../../../styles/styles";
 
 const Card = ({ title, content, image = null, publishDate }) => {
   return (

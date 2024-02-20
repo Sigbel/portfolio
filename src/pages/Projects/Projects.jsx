@@ -1,4 +1,4 @@
-// Css
+// Styles
 import "./Projects.css";
 
 const Projects = () => {

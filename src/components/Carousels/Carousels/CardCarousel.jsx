@@ -1,8 +1,8 @@
-// Chakra Ui
-import { Center, VStack } from "@chakra-ui/react";
-
 // Swiper
 import { SwiperSlide } from "swiper/react";
+
+// Chakra Ui
+import { Center, VStack } from "@chakra-ui/react";
 
 // Components
 import Card from "../../Cards/Card/Card";

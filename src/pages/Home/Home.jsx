@@ -1,4 +1,4 @@
-// Css
+// Styles
 import "./Home.css";
 
 // Hooks

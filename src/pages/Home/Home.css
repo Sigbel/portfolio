@@ -42,6 +42,6 @@
 .sidenav_line {
   width: 1px;
   height: 20vh;
-  background: white;
+  background: rgb(255, 255, 255);
   margin-left: 28px;
 }

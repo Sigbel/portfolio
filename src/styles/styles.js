@@ -1,3 +1,4 @@
+// Modify the card scrollbar
 export const customScrollbar = {
   "&::-webkit-scrollbar": {
     width: "8px",

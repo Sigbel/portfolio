@@ -1,4 +1,4 @@
-// Css
+// Styles
 import "./App.css";
 
 // Router

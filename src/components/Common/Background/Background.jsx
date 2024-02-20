@@ -1,4 +1,4 @@
-// Css
+// Styles
 import "./Background.css";
 
 const Background = () => {

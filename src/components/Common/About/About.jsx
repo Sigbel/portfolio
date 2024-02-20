@@ -1,4 +1,4 @@
-// Css
+// Styles
 import "./About.css";
 
 // Components

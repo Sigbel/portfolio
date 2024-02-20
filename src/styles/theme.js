@@ -1,6 +1,7 @@
 // Chakra Ui
 import { extendTheme } from "@chakra-ui/react";
 
+// Variants to cards text
 const customTheme = {
   components: {
     Text: {
