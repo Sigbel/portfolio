@@ -1,7 +1,12 @@
+// Chakra Ui
 import { Center, VStack } from "@chakra-ui/react";
+
+// Swiper
+import { SwiperSlide } from "swiper/react";
+
+// Components
 import Card from "../../Cards/Card/Card";
 import Slider from "../../Common/Slider/Slider";
-import { SwiperSlide } from "swiper/react";
 
 const CardSlider = ({ cards }) => {
   if (cards.length === 1) {

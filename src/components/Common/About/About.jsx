@@ -1,3 +1,4 @@
+// Css
 import "./About.css";
 
 // Components
@@ -8,7 +9,9 @@ const About = () => {
     <section id="about">
       <div className="container_about">
         <div className="description">
-          <h1>Olá, me chamo <span id="highlight">Henrique</span>!</h1>
+          <h1>
+            Olá, me chamo <span id="highlight">Henrique</span>!
+          </h1>
           <span>
             Sou formado em Automação Industrial, trabalhei 2 anos como
             Projetista Mecânico e Analista Financeiro. Atualmente atuo como

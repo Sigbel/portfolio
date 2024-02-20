@@ -1,3 +1,4 @@
+// Css
 import "./Landing.css";
 
 const Landing = () => {

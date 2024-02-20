@@ -1,5 +1,5 @@
+// Css
 import "./App.css";
-import earthAnimation from "./utils/three";
 
 // Router
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";

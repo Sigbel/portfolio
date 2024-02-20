@@ -1,8 +1,12 @@
+// React
 import * as React from "react";
-import { ChakraProvider } from "@chakra-ui/react";
 import * as ReactDOM from "react-dom/client";
-
 import App from "./App.jsx";
+
+// Chackra Ui
+import { ChakraProvider } from "@chakra-ui/react";
+
+// Css and Styles
 import "./index.css";
 import theme from "./styles/theme.js";
 

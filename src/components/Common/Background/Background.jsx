@@ -1,3 +1,4 @@
+// Css
 import "./Background.css";
 
 const Background = () => {

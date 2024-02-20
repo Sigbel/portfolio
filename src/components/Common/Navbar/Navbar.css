@@ -32,9 +32,7 @@
   margin: 4.5px;
   width: 10px;
   height: 45px;
-  transform: rotate(
-    45deg
-  );
+  transform: rotate(45deg);
   background-color: #111;
 }
 
@@ -59,9 +57,7 @@
   margin: 10px;
   width: 10px;
   height: 40px;
-  transform: rotate(
-    45deg
-  );
+  transform: rotate(45deg);
   background-color: #111;
 }
 

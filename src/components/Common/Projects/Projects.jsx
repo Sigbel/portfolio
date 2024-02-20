@@ -1,7 +1,13 @@
+// Chakra Ui
 import { Box, Center, VStack } from "@chakra-ui/react";
+
+// Carousel data
 import { cards_carrousel } from "../../../utils/data/components-data.json";
 
+// Css
 import "./Projects.css";
+
+// Components
 import CardSlider from "../../Carousels/Carousels/CardCarousel.jsx";
 
 const Projects = () => {

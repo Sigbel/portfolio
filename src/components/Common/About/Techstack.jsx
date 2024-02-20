@@ -13,38 +13,40 @@ import {
 } from "react-icons/di";
 
 const TechStack = () => {
-  return <>
-    <div>
+  return (
+    <>
+      <div>
         <DiJavascript></DiJavascript>
-    </div>
-    <div>
+      </div>
+      <div>
         <DiPython></DiPython>
-    </div>
-    <div>
+      </div>
+      <div>
         <DiReact></DiReact>
-    </div>
-    <div>
+      </div>
+      <div>
         <DiNodejs></DiNodejs>
-    </div>
-    <div>
+      </div>
+      <div>
         <DiMysql></DiMysql>
-    </div>
-    <div>
+      </div>
+      <div>
         <DiSqllite></DiSqllite>
-    </div>
-    <div>
+      </div>
+      <div>
         <DiGit></DiGit>
-    </div>
-    <div>
+      </div>
+      <div>
         <DiDjango></DiDjango>
-    </div>
-    <div>
+      </div>
+      <div>
         <DiFirebase></DiFirebase>
-    </div>
-    <div>
+      </div>
+      <div>
         <DiPostgresql></DiPostgresql>
-    </div>
-  </>;
+      </div>
+    </>
+  );
 };
 
 export default TechStack;
