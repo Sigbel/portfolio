@@ -17,11 +17,11 @@
       }
     },
     {
-      "title": "Calculadora",
+      "title": "Zaturi (Discord Bot)",
       "content": "Card de texte. Lorem ipsum dolor sit amet, consectetur",
       "image": {
-        "url": "src/assets/portfolio/calculator-figure.png",
-        "alt": "Calculadora"
+        "url": "src/assets/portfolio/zaturi.png",
+        "alt": "Zaturi"
       }
     },
     {

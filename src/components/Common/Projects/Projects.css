@@ -1,6 +1,25 @@
 #projects {
+  height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  background: #111;
 }
+
+.container_projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_projects h1 {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.container_projects h1 > span{
+  color: #961f37;
+} 

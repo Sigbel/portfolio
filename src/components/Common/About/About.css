@@ -37,11 +37,8 @@
 
 .description h1 {
   margin-bottom: 40px;
-}
-
-.description span,
-li {
-  font-size: 1.25em;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .description span {
@@ -58,13 +55,13 @@ li {
 
 .description {
   width: 50%;
+  font-size: 1em;
   text-align: justify;
   display: flex;
   flex-direction: column;
 }
 
 .description span.highlight_text {
-  font-size: 20px;
   color: #961f37;
   font-weight: bold;
 }
@@ -93,6 +90,5 @@ li {
 }
 
 #highlight {
-  font-size: 25px;
   color: #961f37;
 }

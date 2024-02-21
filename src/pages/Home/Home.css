@@ -3,13 +3,6 @@
   padding: 0;
 }
 
-#projects,
-#contact {
-  height: 100vh;
-  width: 100%;
-  background-color: #111;
-}
-
 .sidenav {
   height: 100%;
   width: 50px;

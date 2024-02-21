@@ -1,0 +1,30 @@
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #111;
+}
+
+.container_contact {
+    gap: 60px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container_contact h1 {
+    font-size: 2em;
+}
+
+.contact_buttons {
+    display: flex;
+}
+
+.contact_buttons a{
+    margin: 10px 10px;
+}

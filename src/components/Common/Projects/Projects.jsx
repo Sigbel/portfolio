@@ -13,7 +13,8 @@ import CardSlider from "../../Carousels/Carousels/CardCarousel.jsx";
 const Projects = () => {
   return (
     <section id="projects">
-      <div className="container">
+      <div className="container_projects">
+        <h1>Meus <span>projetos</span> recentes</h1>
         <Center>
           <Box maxW="1280px">
             {cards_carrousel && (
@@ -21,6 +22,9 @@ const Projects = () => {
             )}
           </Box>
         </Center>
+        <a href="#contact" className="btn_more_about">
+          Mais projetos
+        </a>
       </div>
     </section>
   );

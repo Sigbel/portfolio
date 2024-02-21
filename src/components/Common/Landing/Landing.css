@@ -8,7 +8,7 @@
 }
 
 #title_name {
-  color: rgb(255, 255, 255);
+  color: white;
   height: 65px;
   width: 27em;
 }
@@ -24,6 +24,10 @@
 #fixed_title {
   display: flex;
   align-items: center;
+}
+
+#fixed_title h2 {
+  font-size: 2em;
 }
 
 .title_hline {
