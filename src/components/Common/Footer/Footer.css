@@ -3,4 +3,5 @@
   background: #111;
   color: rgb(255, 255, 255);
   text-align: center;
+  box-sizing: border-box;
 }

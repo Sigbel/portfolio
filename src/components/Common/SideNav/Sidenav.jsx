@@ -1,14 +1,14 @@
 import "./Sidenav.css";
-
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 const Sidenav = () => {
   return (
     <div className="sidenav">
       <div className="sidenav_icons">
         <a href="#about">
-          <img src="src\assets\images\icons\github_ico.svg" alt="github" />
+          <FaGithub></FaGithub>
         </a>
         <a href="#projects">
-          <img src="src\assets\images\icons\linkedin_ico.svg" alt="linkedin" />
+          <FaLinkedinIn></FaLinkedinIn>
         </a>
       </div>
       <div className="sidenav_line"></div>
