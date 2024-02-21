@@ -4,6 +4,9 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <section id="contact">
+      <div>
+      <img src="src\assets\images\photo\Astronaut.gif" alt="astrounaut" />
+      </div>
       <div className="container_contact">
         <h1>Entre em contato!</h1>
         <span>

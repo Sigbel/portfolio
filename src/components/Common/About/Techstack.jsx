@@ -11,6 +11,7 @@ import {
   DiFirebase,
   DiPostgresql,
 } from "react-icons/di";
+import {} from "react-icons/"
 
 const TechStack = () => {
   return (

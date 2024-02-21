@@ -6,13 +6,14 @@ import { useEffect } from "react";
 
 // Functions
 import typewriting from "../../utils/typewriting";
-import Projects from "../../components/Common/Projects/Projects";
 
 // Components
 import Background from "../../components/Common/Background/Background";
 import Landing from "../../components/Common/Landing/Landing";
 import About from "../../components/Common/About/About";
+import Projects from "../../components/Common/Projects/Projects";
 import Contact from "../../components/Common/Contact/Contact";
+import Sidenav from "../../components/Common/SideNav/Sidenav";
 
 const Home = () => {
   useEffect(() => {
@@ -22,15 +23,7 @@ const Home = () => {
   return (
     <div className="container_initial">
       <Background></Background>
-      <div className="sidenav">
-        <a href="#about">
-          <img src="src\assets\images\icons\github_ico.svg" alt="github" />
-        </a>
-        <a href="#projects">
-          <img src="src\assets\images\icons\linkedin_ico.svg" alt="linkedin" />
-        </a>
-        <div className="sidenav_line"></div>
-      </div>
+      <Sidenav></Sidenav>
       <Landing></Landing>
       <About></About>
       <Projects></Projects>

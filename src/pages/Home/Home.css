@@ -2,39 +2,3 @@
   margin: 0;
   padding: 0;
 }
-
-.sidenav {
-  height: 100%;
-  width: 50px;
-  position: fixed;
-  top: 70vh;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: all 0.2s ease-in-out;
-}
-
-.sidenav a:hover {
-  transform: scale(1.3);
-}
-
-.sidenav a > img {
-  width: 1em;
-  height: 1em;
-}
-
-.sidenav_line {
-  width: 1px;
-  height: 20vh;
-  background: rgb(255, 255, 255);
-  margin-left: 28px;
-}

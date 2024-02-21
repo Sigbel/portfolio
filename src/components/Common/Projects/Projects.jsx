@@ -14,7 +14,8 @@ const Projects = () => {
   return (
     <section id="projects">
       <div className="container_projects">
-        <h1>Meus <span>projetos</span> recentes</h1>
+        <h5>Portfólio</h5>
+        <h1>Confira alguns dos meus <span>projetos</span></h1>
         <Center>
           <Box maxW="1280px">
             {cards_carrousel && (

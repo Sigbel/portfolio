@@ -14,6 +14,12 @@
   align-items: center;
 }
 
+.container_projects h5 {
+  color: #718096;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
 .container_projects h1 {
   color: white;
   font-size: 2em;
