@@ -1,10 +1,12 @@
 #projects {
-  height: 100vh;
-  width: 100%;
+  min-height: 100vh;
+  /* width: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
   background: #111;
+  color: white;
+  padding: 32px 0px 32px 0px;
 }
 
 .container_projects {
@@ -12,6 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* max-width: 70%; */
 }
 
 .container_projects h5 {
@@ -24,8 +27,16 @@
   color: white;
   font-size: 2em;
   font-weight: bold;
+  max-width: 75vw;
+  margin: 25px;
 }
 
 .container_projects h1 > span{
   color: #961f37;
 } 
+/* 
+@media (max-width: 720px) {
+  .container_projects {
+    width: 100%;
+  }
+} */

@@ -1,11 +1,35 @@
+@media only screen and (max-width: 720px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+
+  .swiper {
+    margin: 10px;
+  }
+
+  .swiper-pagination {
+    margin-top: 10px;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .swiper {
+    padding: 32px;
+  }
+}
+
 .swiper {
-  padding: 32px;
+  width: 100vw;
+  max-width: 85vw;
 }
 
 .swiper-slide {
   display: flex;
   justify-content: center;
 }
+
 
 .swiper-pagination-bullet-active {
   background-color: #718096;

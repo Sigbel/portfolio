@@ -5,7 +5,7 @@ import { customScrollbar } from "../../../styles/styles";
 import { Flex, Heading, Image, Text, VStack } from "@chakra-ui/react";
 
 
-const Card = ({ title, content, image = null, publishDate }) => {
+const Card = ({ title, content, image = null }) => {
   return (
     <Flex
       direction="column"

@@ -1,5 +1,4 @@
 #about {
-  /* position: relative; */
   color: white;
   min-height: 100vh;
   display: flex;
@@ -11,7 +10,6 @@
 .more_about {
   display: flex;
   justify-content: center;
-  /* flex-wrap: wrap-reverse; */
   align-items: center;
 }
 
@@ -94,7 +92,7 @@
   }
 
   .description {
-    padding: 0px;
+    padding: 0px 0px 64px 0px;
     width: 60%;
     max-width: 85%;
   }
