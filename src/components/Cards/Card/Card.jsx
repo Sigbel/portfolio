@@ -9,7 +9,7 @@ const Card = ({ title, content, image = null }) => {
   return (
     <Flex
       direction="column"
-      maxW="450px"
+      maxW="350px"
       h="500px"
       borderRadius="8px"
       bgColor="#ECE8DF"

@@ -1,7 +1,16 @@
 .footer {
   padding: 20px;
   background: #111;
-  color: rgb(255, 255, 255);
+  color: rgba(87, 87, 87, 0.993);
   text-align: center;
-  box-sizing: border-box;
+  font-size: 13px;
+}
+
+.footer span::after{
+  content: " | "; 
+}
+
+.footer span a{
+  color: white;
+  text-decoration: none;
 }

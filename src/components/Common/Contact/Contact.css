@@ -1,32 +1,118 @@
 #contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    background: #111;
-    box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: #111;
+  padding-top: 64px;
+}
+
+#contact > a {
+  position: absolute;
+  align-self: flex-end;
+  bottom: 130px;
+  right: 40px;
 }
 
 .container_contact {
-    gap: 60px;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    margin: 10px 10px;
+  max-width: 85vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .container_contact h1 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .contact_buttons {
-    display: flex;
+  display: flex;
 }
 
-.contact_buttons a{
-    margin: 10px 10px;
+.contact_buttons a {
+  margin-right: 15px;
+}
+
+.contact_description {
+  width: 60%;
+  max-width: 85%;
+  text-align: justify;
+  padding: 50px;
+}
+
+.contact_description h1 {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 720px) {
+  .contact_buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container_contact {
+    flex-wrap: wrap;
+  }
+
+  .contact_description {
+    width: 100%;
+  }
+
+  .container_contact {
+    width: 70%;
+    max-width: 85%;
+  }
+}
+
+.scroll {
+  rotate: 180deg;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  position: relative;
+  animation: down 1.5s infinite;
+  -webkit-animation: down 1.5s infinite;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    width: 18px;
+    height: 18px;
+    border-left: 2px solid #333;
+    border-bottom: 2px solid #333;
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes down {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translateY(15px);
+  }
+  40% {
+    transform: translate(0);
+  }
+}
+
+@-webkit-keyframes down {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translateY(15px);
+  }
+  40% {
+    transform: translate(0);
+  }
+}
+
+@media (max-width: 720px) {
+  .contact_description {
+    padding: 0px;
+  }
 }

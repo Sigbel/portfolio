@@ -3,6 +3,7 @@
   min-height: 100vh;
   display: flex;
   background: #111;
+  padding-top: 64px;
 }
 
 .container_about,
@@ -64,12 +65,14 @@
   text-transform: uppercase;
   font-weight: bold;
   height: 4rem;
-  padding: 0 3rem 0 3rem;
+  padding: 0 15px 0 15px;
   border: 2.5px solid #fff;
   border-radius: 10px;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 25px;
+  width: 15em;
 }
 
 .btn_more_about:hover {
@@ -85,15 +88,24 @@
   color: #961f37;
 }
 
+
+
 @media (max-width: 960px) {
   .container_about {
     flex-wrap: wrap-reverse;
-    
   }
-
   .description {
+    margin-top: 20px;
     padding: 0px 0px 64px 0px;
     width: 60%;
     max-width: 85%;
   }
+}
+
+@media (max-width: 720px) {
+  .photo img {
+    max-width: 70vw;
+  }
+
+
 }

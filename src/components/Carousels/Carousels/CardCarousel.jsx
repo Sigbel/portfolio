@@ -38,11 +38,9 @@ const CardSlider = ({ cards }) => {
       },
       720: {
         slidesPerView: cards.length < 2 ? cards.length : 2,
-        slidesPerGroup: cards.length < 2 ? cards.length : 2,
       },
       1280: {
         slidesPerView: cards.length < 3 ? cards.length : 3,
-        slidesPerGroup: cards.length < 3 ? cards.length : 3,
       },
     },
   };

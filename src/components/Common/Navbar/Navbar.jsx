@@ -1,11 +1,19 @@
 // Styles
+import { nav_hamburguer } from "../../../utils/hamburguer.js";
 import "./Navbar.css";
 
+import {useEffect} from "react"
+
 const Navbar = () => {
+
+  useEffect(() => {
+    nav_hamburguer();
+  }, [])
+
   return (
-    <header>
-      <div className="navbar">
-        <div className="navbar_logo">
+    <>
+      <header>
+        <nav className="navbar">
           <a href="#">
             <img
               src="src\assets\images\icons\hbs_ico.svg"
@@ -13,17 +21,36 @@ const Navbar = () => {
               id="logo_ico"
             />
           </a>
-        </div>
-        <div className="navbar_items">
-          <a href="#about">Sobre</a>
-          <a href="#projects">Projetos</a>
-          <a href="#contact">Contato</a>
-          <a href="#curriculum" id="cv_btn">
-            Currículo
-          </a>
-        </div>
-      </div>
-    </header>
+          <ul className="navbar-items">
+            <li className="nav-item">
+              <a href="#about" className="nav-link">
+                Sobre
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#projects" className="nav-link">
+                Projetos
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#contact" className="nav-link">
+                Contato
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#curriculum" className="nav-link">
+                Currículo
+              </a>
+            </li>
+          </ul>
+          <div className="hamburguer">
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+          </div>
+        </nav>
+      </header>
+    </>
   );
 };
 
