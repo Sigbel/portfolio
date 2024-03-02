@@ -2,7 +2,6 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
   background: #111;
   color: white;
   padding-top: 64px;
@@ -16,7 +15,7 @@
 }
 
 .container_projects h5 {
-  color: #718096;
+  color: #f3bd8a;
   font-size: 1.25em;
   font-weight: bold;
 }
@@ -29,5 +28,5 @@
 }
 
 .container_projects h1 > span{
-  color: #C6AC8F;
+  color: #0C9078;
 } 

@@ -63,7 +63,7 @@
 }
 
 .description span.highlight_text {
-  color: #961f37;
+  color: #0C9078;
   font-weight: bold;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .btn_more_about:hover {
-  border-color: #961f37;
+  border-color: #0C9078;
   transition: ease-in-out 400ms;
 }
 
@@ -92,7 +92,7 @@
 }
 
 #highlight {
-  color: #961f37;
+  color: #0C9078;
 }
 
 @media (max-width: 960px) {

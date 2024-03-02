@@ -57,7 +57,7 @@
 }
 
 [class~="nav-item"]:hover {
-  background: #5b7a88;
+  background: #696c6dc2;
   transition: ease-in-out 400ms;
 }
 
@@ -66,11 +66,11 @@
 }
 
 .cv_btn {
-  background-color: #C6AC8F;
+  background-color: #0C9078;
 }
 
 .cv_btn:hover {
-  background: #8e4352;
+  background: #12BE9E;
   transition: ease-in-out 600ms;
 }
 
@@ -81,7 +81,7 @@
 }
 
 #logo_ico:hover {
-  background: #5b7a88;
+  background: #0C9078;
   transition: ease-in-out 800ms;
 }
 

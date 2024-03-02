@@ -16,6 +16,12 @@
   }
 }
 
+@media only screen and (max-width: 720px) {
+  .swiper {
+    padding-top: 12px;
+  }
+}
+
 .swiper {
   width: 85vw;
   max-width: 100%;

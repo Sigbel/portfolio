@@ -2,13 +2,12 @@
 import { nav_hamburguer } from "../../../utils/hamburguer.js";
 import "./Navbar.css";
 
-import {useEffect} from "react"
+import { useEffect } from "react";
 
 const Navbar = () => {
-
   useEffect(() => {
     nav_hamburguer();
-  }, [])
+  }, []);
 
   return (
     <>
@@ -22,26 +21,18 @@ const Navbar = () => {
             />
           </a>
           <ul className="navbar-items">
-            <li className="nav-item">
-              <a href="#about" className="nav-link">
-                Sobre
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#projects" className="nav-link">
-                Projetos
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#contact" className="nav-link">
-                Contato
-              </a>
-            </li>
-            <li className="nav-item cv_btn">
-              <a href="#curriculum" className="nav-link">
-                Currículo
-              </a>
-            </li>
+            <a href="#about" className="nav-link">
+              <li className="nav-item">Sobre</li>
+            </a>
+            <a href="#projects" className="nav-link">
+              <li className="nav-item">Projetos</li>
+            </a>
+            <a href="#contact" className="nav-link">
+              <li className="nav-item">Contato</li>
+            </a>
+            <a href="#curriculum" className="nav-link">
+              <li className="nav-item cv_btn">Currículo</li>
+            </a>
           </ul>
           <div className="hamburguer">
             <span className="bar"></span>
