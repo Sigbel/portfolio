@@ -4,22 +4,25 @@
   min-height: 100vh;
   background: #111;
   padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 #contact > a {
   position: absolute;
   align-self: flex-end;
   bottom: 130px;
-  right: 40px;
+  right: 64px;
 }
 
 .container_contact {
-  max-width: 85vw;
+  max-width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   color: white;
+  background: rgba(255, 255, 255, 0.02);
+  font-size: 21px;
 }
 
 .container_contact h1 {
@@ -37,7 +40,6 @@
 .contact_description {
   width: 60%;
   max-width: 85%;
-  text-align: justify;
   padding: 50px;
 }
 
@@ -46,24 +48,27 @@
 }
 
 @media (max-width: 720px) {
-  .contact_buttons {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .container_contact {
     flex-wrap: wrap;
   }
 
   .contact_description {
-    width: 100%;
+    width: 65vw;
   }
 
   .container_contact {
-    width: 70%;
-    max-width: 85%;
+    width: 100%;
+    max-width: 100%;
   }
 }
+
+@media (max-width: 1095px) {
+  .contact_buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 
 .scroll {
   rotate: 180deg;
@@ -114,5 +119,6 @@
 @media (max-width: 720px) {
   .contact_description {
     padding: 0px;
+    
   }
 }

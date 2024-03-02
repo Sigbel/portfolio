@@ -12,7 +12,7 @@ const Card = ({ title, content, image = null }) => {
       maxW="350px"
       h="500px"
       borderRadius="8px"
-      bgColor="#ECE8DF"
+      bgColor="rgba(255, 255, 255, 0.2)"
       
     >
       {image && (
@@ -37,8 +37,8 @@ const Card = ({ title, content, image = null }) => {
         w="100%"
         overflow="auto"
       >
-        <Heading color="black" size="lg">{title}</Heading>
-        <Text color="black" overflowY="auto" css={customScrollbar}>
+        <Heading color="#ECE8DF" size="lg">{title}</Heading>
+        <Text color="#ECE8DF" overflowY="auto" css={customScrollbar} paddingRight="5px">
           {content}
         </Text>
       </VStack>

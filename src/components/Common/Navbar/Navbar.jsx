@@ -37,7 +37,7 @@ const Navbar = () => {
                 Contato
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item cv_btn">
               <a href="#curriculum" className="nav-link">
                 Currículo
               </a>

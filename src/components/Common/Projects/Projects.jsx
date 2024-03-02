@@ -7,6 +7,9 @@ import { cards_carrousel } from "../../../utils/data/components-data.json";
 // Styles
 import "./Projects.css";
 
+// React Router
+import { Link } from "react-router-dom";
+
 // Components
 import CardSlider from "../../Carousels/Carousels/CardCarousel.jsx";
 
@@ -23,9 +26,7 @@ const Projects = () => {
             )}
           </Box>
         </Center>
-        <a href="#contact" className="btn_more_about">
-          Mais projetos
-        </a>
+        <Link to="/projects" className="btn_more_about">Mais projetos</Link>
       </div>
     </section>
   );

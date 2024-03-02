@@ -5,8 +5,6 @@ const nav_hamburguer = () => {
   hamburguer.addEventListener("click", () => {
     hamburguer.classList.toggle("active");
     navMenu.classList.toggle("active");
-
-    console.log(hamburguer)
   });
 
   document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {

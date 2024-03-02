@@ -29,16 +29,18 @@ const About = () => {
           <span className="highlight_text">
             Desenvolvedor de Software com habilidades diversas:
           </span>
-          <li>
-            <span className="highlight_text">Programação:</span> FrontEnd
-            (CSS/React [Hooks, Router, Redux, Webpack, Designer
-            Responsivo]/Bootstrap), BackEnd (Python [Orientação a Objetos,
-            Cython, Multiprocessamento, Automação], NodeJs, básico em C#).
-          </li>
-          <li>
-            <span className="highlight_text">Qualidade:</span> Clean Code,
-            Test-Driven Development (TDD), Metodologias Ágeis (Kanban, Scrum).
-          </li>
+          <ul>
+            <li>
+              <span className="highlight_text">Programação:</span> FrontEnd
+              (CSS/React [Hooks, Router, Redux, Webpack, Designer
+              Responsivo]/Bootstrap), BackEnd (Python [Orientação a Objetos,
+              Cython, Multiprocessamento, Automação], NodeJs, básico em C#).
+            </li>
+            <li>
+              <span className="highlight_text">Qualidade:</span> Clean Code,
+              Test-Driven Development (TDD), Metodologias Ágeis (Kanban, Scrum).
+            </li>
+          </ul>
           <div className="container_tech">
             <TechStack></TechStack>
           </div>

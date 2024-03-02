@@ -7,7 +7,7 @@
   width: 60px;
   position: fixed;
   left: 0;
-  background-color: #111;
+  background-color: rgba(255, 255, 255, 0);
   overflow-x: hidden;
 }
 
