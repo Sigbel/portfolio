@@ -2,51 +2,57 @@
   "cards_carrousel": [
     {
       "title": "Txt Layout Validator",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "content": "Validação vertical de dados em arquivos de layouts bancários",
       "image": {
         "url": "src/assets/portfolio/b_layout_v.png",
         "alt": "Txt Validator"
-      }
+      },
+      "link": "https://github.com/Sigbel/Txt_File_Validator"
     },
     {
       "title": "Zaturi (Discord Bot)",
-      "content": "Card de texte. Lorem ipsum dolor sit amet, consectetur",
+      "content": "Bot de discord para um monitoramento efetivo de investimentos e criptoativos",
       "image": {
         "url": "src/assets/portfolio/zaturi.png",
         "alt": "Zaturi"
-      }
+      },
+      "link": "https://github.com/Sigbel/Zaturi_Discord_Bot"
     },
     {
       "title": "Booking Manager",
-      "content": "Card de texte. Lorem ipsum dolor sit amet, consectetur",
+      "content": "Aplicação para gestão precisa de quartos e reservas de hotéis utilizando QtDesigner",
       "image": {
         "url": "src/assets/portfolio/booking_manager.png",
         "alt": "Booking Manager"
-      }
+      },
+      "link": "https://github.com/Sigbel/Booking_Manager"
     },
     {
       "title": "CRUD with C#",
-      "content": "Card de texte. Lorem ipsum dolor sit amet, consectetur",
+      "content": "CRUD em C# com SQL Server, utilizando interface gráfica.",
       "image": {
         "url": "src/assets/portfolio/crud_c_sql_server.png",
         "alt": "CRUD with C#"
-      }
+      },
+      "link": "https://github.com/Sigbel/CRUD_with_SQLServer"
     },
     {
       "title": "Personal Portfolio",
-      "content": "Card de texte. Lorem ipsum dolor sit amet, consectetur",
+      "content": "Um demonstrativo de minhas capacitações e projetos feitos.",
       "image": {
         "url": "src/assets/portfolio/hb_portfolio.png",
         "alt": "Portfolio"
-      }
+      },
+      "link": "https://github.com/Sigbel/sigbel.github.io"
     },
     {
       "title": "Python Training Projects",
-      "content": "Card de texte. Lorem ipsum dolor sit amet, consectetur",
+      "content": "Projetos para fixação sobre a linguagem.",
       "image": {
         "url": "src/assets/portfolio/python_training_projects.png",
         "alt": "Training Projects"
-      }
+      },
+      "link": "https://github.com/Sigbel/Python_Training_Projects"
     }
   ]
 }

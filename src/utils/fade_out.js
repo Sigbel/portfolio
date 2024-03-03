@@ -1,4 +1,6 @@
 const scroll_fadeout = () => {
+
+  if (document.get)
   window.addEventListener("scroll", () => {
     var num = window.scrollY / window.innerHeight;
     var x = 0;

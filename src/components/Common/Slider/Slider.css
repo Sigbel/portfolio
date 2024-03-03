@@ -43,13 +43,17 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: #5e503f;
+  color: #f3bd8a;
 }
 
-.swiper-slide [class^="css"]:hover {
+.swiper-slide [class^="css"][class$="ta"]:hover {
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   border: 1px solid #ece8df;
-  border-radius: 5px;
+  cursor: grab;
+}
+
+.swiper-slide [class^="css"][class$="ta"]:active {
+  cursor: grabbing;
 }
 
 @keyframes scale-up-center {
@@ -61,7 +65,7 @@
   }
 }
 
-.swiper-slide [class^="css"]:not(:hover) {
+.swiper-slide [class^="css"][class$="ta"]:not(:hover) {
   animation: scale-down-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
@@ -72,4 +76,9 @@
   100% {
     transform: scale(1);
   }
+}
+
+.swiper-slide [class^="chakra-button"]:hover {
+  background: #f3bd8a;
+  transition: ease-in-out 500ms;
 }

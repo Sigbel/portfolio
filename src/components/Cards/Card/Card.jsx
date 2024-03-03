@@ -2,10 +2,17 @@
 import { customScrollbar } from "../../../styles/styles";
 
 // Chakra Ui
-import { Flex, Heading, Image, Text, VStack } from "@chakra-ui/react";
+import {
+  Button,
+  Flex,
+  Heading,
+  Image,
+  Link,
+  Text,
+  VStack,
+} from "@chakra-ui/react";
 
-
-const Card = ({ title, content, image = null }) => {
+const Card = ({ title, content, image = null, link }) => {
   return (
     <Flex
       direction="column"
@@ -13,7 +20,6 @@ const Card = ({ title, content, image = null }) => {
       h="500px"
       borderRadius="8px"
       bgColor="rgba(255, 255, 255, 0.2)"
-      
     >
       {image && (
         <Image
@@ -37,11 +43,23 @@ const Card = ({ title, content, image = null }) => {
         w="100%"
         overflow="auto"
       >
-        <Heading color="#ECE8DF" size="lg">{title}</Heading>
-        <Text color="#ECE8DF" overflowY="auto" css={customScrollbar} paddingRight="5px">
+        <Heading color="#ECE8DF" size="lg">
+          {title}
+        </Heading>
+        <Text
+          color="#ECE8DF"
+          overflowY="auto"
+          css={customScrollbar}
+          paddingRight="5px"
+        >
           {content}
         </Text>
       </VStack>
+      <Flex w="100%" justifyContent="center" marginBottom="20px">
+        <Link href={link} target="_blank">
+          <Button bgColor="white">Ver mais</Button>
+        </Link>
+      </Flex>
     </Flex>
   );
 };

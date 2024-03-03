@@ -5,6 +5,8 @@ import "./Navbar.css";
 import { useEffect } from "react";
 
 const Navbar = () => {
+  const path = "http://localhost:5173/"
+
   useEffect(() => {
     nav_hamburguer();
   }, []);
@@ -13,7 +15,7 @@ const Navbar = () => {
     <>
       <header>
         <nav className="navbar">
-          <a href="#">
+          <a href={path}>
             <img
               src="src\assets\images\icons\hbs_ico.svg"
               alt="hbs"
@@ -21,16 +23,16 @@ const Navbar = () => {
             />
           </a>
           <ul className="navbar-items">
-            <a href="#about" className="nav-link">
+            <a href={path + "#about"} className="nav-link">
               <li className="nav-item">Sobre</li>
             </a>
-            <a href="#projects" className="nav-link">
+            <a href={path + "#projects"} className="nav-link">
               <li className="nav-item">Projetos</li>
             </a>
-            <a href="#contact" className="nav-link">
+            <a href={path + "#contact"} className="nav-link">
               <li className="nav-item">Contato</li>
             </a>
-            <a href="#curriculum" className="nav-link">
+            <a href={path + "curriculum"} className="nav-link">
               <li className="nav-item cv_btn">Currículo</li>
             </a>
           </ul>

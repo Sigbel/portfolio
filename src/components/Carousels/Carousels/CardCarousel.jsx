@@ -2,7 +2,7 @@
 import { SwiperSlide } from "swiper/react";
 
 // Chakra Ui
-import { Center, VStack } from "@chakra-ui/react";
+import { Center } from "@chakra-ui/react";
 
 // Components
 import Card from "../../Cards/Card/Card";
@@ -13,10 +13,11 @@ const CardSlider = ({ cards }) => {
     return (
       <Center>
         <Card
-          ckey={cards[0].title}
+          key={cards[0].title}
           title={cards[0].title}
           content={cards[0].content}
           image={cards[0].image}
+          link={cards[0].link}
         ></Card>
       </Center>
     );
@@ -54,6 +55,7 @@ const CardSlider = ({ cards }) => {
             title={card.title}
             content={card.content}
             image={card.image}
+            link={card.link}
           ></Card>
         </SwiperSlide>
       ))}

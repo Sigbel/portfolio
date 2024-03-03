@@ -1,8 +1,18 @@
 // Styles
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import scroll_fadeout from "../../../utils/fade_out";
 import "./Landing.css";
 
 const Landing = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === "http://localhost:5173/") {
+      scroll_fadeout();
+    }
+  }, []);
+
   return (
     <section id="landing">
       <div className="container_landing">
@@ -21,7 +31,6 @@ const Landing = () => {
       <div id="scroll_down">
         <a href="#about">
           <div id="mouse"></div>
-          <script type="module">{scroll_fadeout()}</script>
         </a>
       </div>
     </section>
