@@ -15,7 +15,7 @@ const Navbar = () => {
     <>
       <header>
         <nav className="navbar">
-          <a href={path}>
+          <a href={path + "#"}>
             <img
               src="src\assets\images\icons\hbs_ico.svg"
               alt="hbs"
