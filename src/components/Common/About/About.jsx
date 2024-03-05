@@ -13,7 +13,7 @@ const About = () => {
             Olá, me chamo <span id="highlight">Henrique</span>!
           </h1>
           <span>
-            Sou formado em Automação Industrial, trabalhei 2 anos como
+            Sou formado em Automação Industrial, trabalhei dois anos como
             Projetista Mecânico e Analista Financeiro. Atualmente atuo como
             freelancer, oferecendo soluções completas em sistemas integrados,
             desktop, sistemas web, design gráfico e edições de vídeo.
