@@ -26,6 +26,7 @@
     margin-bottom: 11px;
     font-size: 1.5em;
     letter-spacing: 5px;
+    font-weight: 400;
   }
 }
 
@@ -36,6 +37,7 @@
 
   h2 {
     font-size: 5em;
+    font-weight: 400;
   }
 }
 
@@ -54,6 +56,7 @@
   font-size: 5em;
   text-wrap: nowrap;
   height: 9vw;
+  font-weight: 400;
 }
 
 #cursor {

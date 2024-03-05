@@ -33,7 +33,6 @@ import {
 } from "react-icons/si";
 
 const TechStack = (props) => {
-  console.log(props);
   const location = useLocation();
 
   if (location.pathname === "/" || props.type === "home") {

@@ -10,39 +10,40 @@ const MoreAbout = () => {
       <Background></Background>
       <section className="about_me">
         <div className="container_about_me">
-          <img
-            className="photo"
-            src="src\assets\images\photo\profile_image.jpg"
-            alt="profile_image"
-          />
-          <p className="text">
-            Sou formado em Automação Industrial, trabalhei dois anos como
-            Projetista Mecânico e Analista Financeiro. Atualmente atuo como
-            freelancer, oferecendo soluções completas em sistemas integrados,
-            desktop, sistemas web, design gráfico e edições de vídeo. Costumo me
-            esforçar ao máximo para extrair todo meu potêncial criativo enquanto
-            estou desenvolvendo, me preocupo principalmente em entregar uma
-            experiência agradável e acima de tudo prática ao usuário. Desenvolvo
-            todas as etapas do projeto, desde seu rascunho, idealização,
-            primeiras linhas de código, até a sua finalização e disponibilização
-            para o usuário. Lorem, ipsum dolor sit amet consectetur adipisicing
-            elit. Nihil totam vero consequatur consequuntur recusandae.
-            Molestiae odit neque, qui impedit magni inventore quasi ullam enim
-            todas as etapas do projeto, desde seu rascunho, idealização,
-            primeiras linhas de código, até a sua finalização e disponibilização
-            para o usuário. Lorem, ipsum dolor sit amet consectetur adipisicing
-            elit. Nihil totam vero consequatur consequuntur recusandae.
-            Molestiae odit neque, qui impedit magni inventore quasi ullam enim
-            placeat
-            elit. Nihil totam vero consequatur consequuntur recusandae.
-            Molestiae odit neque, qui impedit magni inventore quasi ullam enim
-            todas as etapas do projeto, desde seu rascunho, idealização,
-            primeiras linhas de código, até a sua finalização e disponibilização
-            para o usuário. Lorem, ipsum dolor sit amet consectetur adipisicing
-            elit. Nihil totam vero consequatur consequuntur recusandae.
-            Molestiae odit neque, qui impedit magni inventore quasi ullam enim
-            placeat
-          </p>
+          <div className="column_about_photo">
+            <h1>Sobre mim</h1>
+            <img
+              className="photo"
+              src="src\assets\images\photo\about_image.jpg"
+              alt="profile_image"
+            />
+          </div>
+          <div className="column_about_description">
+            <div className="about_me_description">
+              <h1>Olá, sou o Henrique!</h1>
+              <p className="text">
+                Um entusiasta apaixonado por tecnologia, sempre em busca das
+                últimas novidades e tendências do mundo digital. Busco
+                compreender a diversidade de formas as quais a tecnologia
+                influencia nossa vida contidiana, estou sempre explorando novas
+                maneiras de usar a inovação para criar um impacto positivo. Com
+                uma mente curiosa e um amor pela aprendizagem contínua, estou
+                sempre pronto para mergulhar de cabeça em novos desafios e
+                encontrar soluções criativas para qualquer problema.
+              </p>
+              <p className="text">
+                Sempre encarei a programação como uma parte indispensável da
+                minha vida. Me tornei tecnólogo em Automação Industrial pois
+                buscava compreender o funcionamento da indústria em relação à
+                fabricação dos produtos os quais utilizamos diariamente. Foi assim
+                que descobri minha paixão por ser um desenvolvedor: alguém que
+                busca resolver problemas com assertividade e criatividade.
+              </p>
+            </div>
+            <p className="phrase">
+              "Faça ou não faça. Tentativa não há" <br></br>- Yoda, Mestre
+            </p>
+          </div>
         </div>
       </section>
       <section className="experience">
