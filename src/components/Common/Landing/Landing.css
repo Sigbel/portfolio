@@ -118,6 +118,10 @@
   #title_name {
     max-width: 70vw;
   }
+
+  .container_landing {
+    width: 85%;
+  }
 }
 
 @media (max-width: 840px) {
@@ -129,7 +133,7 @@
 
 @media (max-width: 1240px) {
   .container_landing {
-    font-size: 1.27vw;
+    font-size: 1.27vw
   }
 
   .title_hline {
