@@ -120,3 +120,26 @@
     padding: 0px;
   }
 }
+
+@media (max-width: 500px) {
+  .scroll {
+    display: none;
+  }
+}
+
+@media (min-width: 720px) {
+  .container_contact {
+    padding: 0px 32px 32px 64px;
+  }
+}
+
+@media (max-width: 450px) {
+  .contact_image {
+    width: 80%;
+  }
+
+  .contact_description {
+    width: 85%;
+    font-size: 18px;
+  }
+}

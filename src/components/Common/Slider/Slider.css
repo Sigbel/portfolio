@@ -82,3 +82,9 @@
   background: #f3bd8a;
   transition: ease-in-out 500ms;
 }
+
+@media (max-width: 450px) {
+  .swiper {
+    padding: 15px;
+  }
+}

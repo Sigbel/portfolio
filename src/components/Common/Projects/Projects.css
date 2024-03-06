@@ -30,3 +30,7 @@
 .container_projects h1 > span {
   color: #0c9078;
 }
+
+@media (max-width: 450px) {
+
+}

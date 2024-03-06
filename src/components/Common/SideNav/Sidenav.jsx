@@ -8,10 +8,10 @@ const Sidenav = () => {
   return (
     <div className="sidenav">
       <div className="sidenav_icons">
-        <a href="#about">
+        <a href="https://github.com/Sigbel" target="_blank">
           <FaGithub></FaGithub>
         </a>
-        <a href="#projects">
+        <a href="https://www.linkedin.com/in/henrique-belgamo/" target="_blank">
           <FaLinkedinIn></FaLinkedinIn>
         </a>
       </div>

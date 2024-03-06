@@ -10,8 +10,13 @@ import filter_projects from "../../utils/projects";
 // Components
 import Background_P from "../../components/Common/Background/Background_P";
 import Card from "../../components/Cards/Card/Card";
+import { useLocation } from "react-router-dom";
 
 const OtherProjects = () => {
+
+  const location = useLocation()
+
+  console.log(location.pathname)
   return (
     <div>
       <Background_P></Background_P>

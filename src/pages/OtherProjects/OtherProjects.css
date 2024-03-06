@@ -67,3 +67,10 @@
     }
   }
 }
+
+@media (max-width: 485px) {
+  .container_other_projects {
+    padding: 100px 20px 20px 20px;
+
+  }
+}

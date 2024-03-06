@@ -259,8 +259,23 @@
   }
 
   .photo {
-    /* min-width: %; */
     margin-bottom: 20px;
     max-width: 75% !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .container_about_me {
+    width: 85% !important;
+  }
+
+  .text {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 720px) {
+  .container_about_me {
+    width: 75%;
   }
 }
