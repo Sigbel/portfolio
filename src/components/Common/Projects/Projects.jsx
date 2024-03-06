@@ -18,7 +18,9 @@ const Projects = () => {
     <section id="projects">
       <div className="container_projects">
         <h5>Portfólio</h5>
-        <h1>Confira alguns dos meus <span>projetos</span></h1>
+        <h1>
+          Confira alguns dos meus <span>projetos</span>
+        </h1>
         <Center>
           <Box maxW="1280px">
             {cards_carrousel && (
@@ -26,7 +28,9 @@ const Projects = () => {
             )}
           </Box>
         </Center>
-        <Link to="/projects" className="btn_more_about">Mais projetos</Link>
+        <Link to="/projects" className="btn_more_about">
+          Mais projetos
+        </Link>
       </div>
     </section>
   );

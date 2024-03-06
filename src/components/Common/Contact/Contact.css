@@ -3,7 +3,6 @@
   justify-content: center;
   min-height: 100vh;
   background: #111;
-
 }
 
 #contact > a {
@@ -70,7 +69,6 @@
   }
 }
 
-
 .scroll {
   rotate: 180deg;
   width: 60px;
@@ -120,6 +118,5 @@
 @media (max-width: 720px) {
   .contact_description {
     padding: 0px;
-    
   }
 }

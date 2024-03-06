@@ -15,7 +15,6 @@ import {
 } from "@chakra-ui/react";
 
 const Card = ({ title, content, image = null, link, page, filter }) => {
-
   if (page === "/") {
     return (
       <Flex

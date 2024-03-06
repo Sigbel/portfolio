@@ -121,14 +121,14 @@
 }
 
 @media (max-width: 840px) {
-  #title_name h1{
+  #title_name h1 {
     font-size: 14px;
     letter-spacing: 4px;
   }
 }
 
 @media (max-width: 1240px) {
-  .container_landing{
+  .container_landing {
     font-size: 1.27vw;
   }
 
@@ -136,5 +136,3 @@
     height: 0.4vw;
   }
 }
-
-

@@ -61,7 +61,6 @@
 }
 
 .column_about_description {
-  
   .about_me_description {
     margin-bottom: 32px;
   }
@@ -219,7 +218,6 @@
     transform: scale(1);
   }
 }
-
 
 .container_title h1 {
   padding: 24px 0 5px;

@@ -6,11 +6,11 @@
   font-size: 13px;
 }
 
-.footer span::after{
-  content: " | "; 
+.footer span::after {
+  content: " | ";
 }
 
-.footer span a{
+.footer span a {
   color: white;
   text-decoration: none;
 }

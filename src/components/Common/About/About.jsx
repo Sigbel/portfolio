@@ -45,7 +45,10 @@ const About = () => {
             <TechStack></TechStack>
           </div>
           <div className="more_about">
-            <a href="http://localhost:5173/more-about" className="btn_more_about">
+            <a
+              href="http://localhost:5173/more-about"
+              className="btn_more_about"
+            >
               saiba mais
             </a>
           </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Background from "../../components/Common/Background/Background";
 
 import "./MoreAbout.css";
-import TechStack from "../../components/Common/About/Techstack";
+import TechStack from "../../components/Common/About/TechStack";
 
 const MoreAbout = () => {
   return (
@@ -35,9 +35,9 @@ const MoreAbout = () => {
                 Sempre encarei a programação como uma parte indispensável da
                 minha vida. Me tornei tecnólogo em Automação Industrial pois
                 buscava compreender o funcionamento da indústria em relação à
-                fabricação dos produtos os quais utilizamos diariamente. Foi assim
-                que descobri minha paixão por ser um desenvolvedor: alguém que
-                busca resolver problemas com assertividade e criatividade.
+                fabricação dos produtos os quais utilizamos diariamente. Foi
+                assim que descobri minha paixão por ser um desenvolvedor: alguém
+                que busca resolver problemas com assertividade e criatividade.
               </p>
             </div>
             <p className="phrase">

@@ -27,8 +27,7 @@
     flex-wrap: nowrap;
   }
 
-  &:hover{
+  &:hover {
     border-color: #f3bd8a;
   }
 }
-
