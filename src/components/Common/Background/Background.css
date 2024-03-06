@@ -1,6 +1,6 @@
 html {
-  height: 100%;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  /* height: 150%; */
+  background: #111;
 }
 
 #stars {
@@ -100,26 +100,6 @@ html {
   box-shadow: 91px 409px #fff, 1886px 728px #fff, 1294px 970px #fff,
     720px 1215px #fff, 796px 1431px #fff, 834px 1217px #fff, 1926px 1164px #fff,
     1803px 310px #fff, 1532px 1421px #fff, 1680px 232px #fff;
-}
-
-#title {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  color: #fff;
-  text-align: center;
-  font-family: "lato", sans-serif;
-  font-weight: 300;
-  font-size: 50px;
-  letter-spacing: 10px;
-  margin-top: -60px;
-  padding-left: 10px;
-}
-#title span {
-  background: -webkit-linear-gradient(white, #38495a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 @keyframes animStar {

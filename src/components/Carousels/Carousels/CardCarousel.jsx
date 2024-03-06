@@ -18,6 +18,7 @@ const CardSlider = ({ cards }) => {
           content={cards[0].content}
           image={cards[0].image}
           link={cards[0].link}
+          page="/"
         ></Card>
       </Center>
     );
@@ -56,6 +57,7 @@ const CardSlider = ({ cards }) => {
             content={card.content}
             image={card.image}
             link={card.link}
+            page="/"
           ></Card>
         </SwiperSlide>
       ))}

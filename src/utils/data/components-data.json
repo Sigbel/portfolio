@@ -54,5 +54,97 @@
       },
       "link": "https://github.com/Sigbel/Python_Training_Projects"
     }
+  ],
+  "cards_showcase": [
+    {
+      "title": "Txt Layout Validator",
+      "content": "Validação vertical de dados em arquivos de layouts bancários",
+      "image": {
+        "url": "src/assets/portfolio/b_layout_v.png",
+        "alt": "Txt Validator"
+      },
+      "link": "https://github.com/Sigbel/Txt_File_Validator",
+      "filter": "utility"
+    },
+    {
+      "title": "Zaturi (Discord Bot)",
+      "content": "Bot de discord para um monitoramento efetivo de investimentos e criptoativos",
+      "image": {
+        "url": "src/assets/portfolio/zaturi.png",
+        "alt": "Zaturi"
+      },
+      "link": "https://github.com/Sigbel/Zaturi_Discord_Bot",
+      "filter": "utility"
+    },
+    {
+      "title": "Booking Manager",
+      "content": "Aplicação para gestão precisa de quartos e reservas de hotéis utilizando QtDesigner",
+      "image": {
+        "url": "src/assets/portfolio/booking_manager.png",
+        "alt": "Booking Manager"
+      },
+      "link": "https://github.com/Sigbel/Booking_Manager",
+      "filter": "application"
+    },
+    {
+      "title": "CRUD with C#",
+      "content": "CRUD em C# com SQL Server, utilizando interface gráfica.",
+      "image": {
+        "url": "src/assets/portfolio/crud_c_sql_server.png",
+        "alt": "CRUD with C#"
+      },
+      "link": "https://github.com/Sigbel/CRUD_with_SQLServer",
+      "filter": "application"
+    },
+    {
+      "title": "Personal Portfolio",
+      "content": "Um demonstrativo de minhas capacitações e projetos feitos.",
+      "image": {
+        "url": "src/assets/portfolio/hb_portfolio.png",
+        "alt": "Portfolio"
+      },
+      "link": "https://github.com/Sigbel/sigbel.github.io",
+      "filter": "web"
+    },
+    {
+      "title": "Python Training Projects",
+      "content": "Projetos para fixação sobre a linguagem.",
+      "image": {
+        "url": "src/assets/portfolio/python_training_projects.png",
+        "alt": "Training Projects"
+      },
+      "link": "https://github.com/Sigbel/Python_Training_Projects",
+      "filter": "logic"
+    },
+    {
+      "title": "Calculator with Python",
+      "content": "Calculadora simples feita em Python",
+      "image": {
+        "url": "src/assets/portfolio/calculator-figure.png",
+        "alt": "calculator"
+      },
+      "link": "https://github.com/Sigbel/Calculator_with_Python",
+      "filter": "application"
+    },
+    {
+      "title": "Technical Report Generator",
+      "content": "Aplicação para a geração de relatórios focados em bem-estar e segurança no trabalho",
+      "image": {
+        "url": "src/assets/portfolio/technical_report-figure.png",
+        "alt": "Technical Report"
+      },
+      "link": "https://github.com/Sigbel/Technical_Report_Generator",
+      "filter": "application"
+    },
+    {
+      "title": "Redimensionador",
+      "content": "Uma interface para redimensionamento de imagens",
+      "image": {
+        "url": "src/assets/portfolio/redimensionador-figure.png",
+        "alt": "Redimensionador"
+      },
+      "link": "https://github.com/Sigbel/Redimensionador-de-Imagens",
+      "filter": "utility"
+    }
   ]
 }

@@ -8,7 +8,7 @@ const Landing = () => {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname === "http://localhost:5173/") {
+    if (location.pathname === "/") {
       scroll_fadeout();
     }
   }, []);
