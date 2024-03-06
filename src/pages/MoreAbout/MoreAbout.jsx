@@ -1,7 +1,8 @@
-import React from "react";
-import Background from "../../components/Common/Background/Background";
-
+// Styles
 import "./MoreAbout.css";
+
+// Components
+import Background from "../../components/Common/Background/Background";
 import TechStack from "../../components/Common/About/TechStack";
 
 const MoreAbout = () => {

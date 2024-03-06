@@ -1,12 +1,15 @@
 // Styles
-import Background_P from "../../components/Common/Background/Background_P";
 import "./OtherProjects.css";
 
+// Data
 import { cards_showcase } from "../../utils/data/components-data.json";
-import Card from "../../components/Cards/Card/Card";
 
+// Functions
 import filter_projects from "../../utils/projects";
-import { useEffect } from "react";
+
+// Components
+import Background_P from "../../components/Common/Background/Background_P";
+import Card from "../../components/Cards/Card/Card";
 
 const OtherProjects = () => {
   return (

@@ -1,8 +1,12 @@
 // Styles
+import "./Landing.css";
+
+// Hooks
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+
+// Functions
 import scroll_fadeout from "../../../utils/fade_out";
-import "./Landing.css";
 
 const Landing = () => {
   const location = useLocation();

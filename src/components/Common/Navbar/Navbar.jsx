@@ -1,15 +1,11 @@
 // Styles
-import { nav_hamburguer } from "../../../utils/hamburguer.js";
 import "./Navbar.css";
 
-import { useEffect } from "react";
+// Functions
+import { nav_hamburguer } from "../../../utils/hamburguer.js";
 
 const Navbar = () => {
   const path = "http://localhost:5173/";
-
-  // useEffect(() => {
-  //   nav_hamburguer();
-  // }, []);
 
   return (
     <>

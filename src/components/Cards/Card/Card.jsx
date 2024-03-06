@@ -1,8 +1,6 @@
 // Styles
 import { customScrollbar } from "../../../styles/styles";
 
-import { useLocation } from "react-router-dom";
-
 // Chakra Ui
 import {
   Button,

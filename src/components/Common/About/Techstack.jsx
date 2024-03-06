@@ -1,5 +1,7 @@
+// Hooks
 import { useLocation } from "react-router-dom";
 
+// Styles
 import "./Techstack.css";
 
 // Icon

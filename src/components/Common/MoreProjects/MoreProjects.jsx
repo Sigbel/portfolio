@@ -1,3 +1,4 @@
+// Styles
 import "./MoreProjects.css";
 
 const MoreProjects = () => {

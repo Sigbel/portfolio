@@ -1,5 +1,9 @@
+// Styles
 import "./Sidenav.css";
+
+// Icons
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+
 const Sidenav = () => {
   return (
     <div className="sidenav">
