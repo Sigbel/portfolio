@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact">
       <div className="container_contact">
         <div className="contact_image">
-          <img src="src\assets\images\photo\Astronaut.gif" alt="astrounaut" />
+          <img src="https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732537/images/photo/frha4ifj66eklt1xwsid.gif" alt="astrounaut" />
         </div>
         <div className="contact_description">
           <h1>Entre em contato!</h1>
@@ -17,10 +17,10 @@ const Contact = () => {
             de entrada está sempre aberta. Farei o possível para responder!
           </span>
           <div className="contact_buttons">
-            <a href="#contact" className="btn_more_about">
+            <a href="mailto:hb.belgamo@gmail.com" className="btn_more_about">
               Email
             </a>
-            <a href="#contact" className="btn_more_about">
+            <a href="https://www.linkedin.com/in/henrique-belgamo/" target="_blank" className="btn_more_about">
               Linkedin
             </a>
           </div>

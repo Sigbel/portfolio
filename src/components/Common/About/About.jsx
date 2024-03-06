@@ -1,8 +1,11 @@
 // Styles
 import "./About.css";
 
+// React Router
+import { Link } from "react-router-dom";
+
 // Components
-import TechStack from "./TechStack";
+import TechStack from "../Techstack/Techstack";
 
 const About = () => {
   return (
@@ -45,17 +48,14 @@ const About = () => {
             <TechStack></TechStack>
           </div>
           <div className="more_about">
-            <a
-              href="http://localhost:5173/more-about"
-              className="btn_more_about"
-            >
-              saiba mais
-            </a>
+            <Link to="/more-about" className="btn_more_about">
+              Saiba mais
+            </Link>
           </div>
         </div>
         <div className="photo">
           <img
-            src="src\assets\images\photo\profile_image.jpg"
+            src="https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732535/images/photo/saebpi47zhexmhjhwpob.jpg"
             alt="profile_image"
           />
         </div>

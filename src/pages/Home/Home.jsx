@@ -2,7 +2,7 @@
 import "./Home.css";
 
 // Hooks
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 // Functions
 import typewriting from "../../utils/typewriting";
@@ -16,10 +16,15 @@ import Contact from "../../components/Common/Contact/Contact";
 import Sidenav from "../../components/Common/SideNav/Sidenav";
 
 const Home = () => {
+  const [vercelURL, setVercelUrl] = useState("")
+
   useEffect(() => {
     typewriting();
+
+    setVercelUrl(process.env.VERCEL_URL);
   }, []);
 
+  console.log(vercelURL)
   return (
     <div className="container_initial">
       <Background></Background>

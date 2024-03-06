@@ -3,7 +3,7 @@ import "./MoreAbout.css";
 
 // Components
 import Background from "../../components/Common/Background/Background";
-import TechStack from "../../components/Common/About/TechStack";
+import TechStack from "../../components/Common/Techstack/Techstack";
 
 const MoreAbout = () => {
   return (
@@ -15,7 +15,7 @@ const MoreAbout = () => {
             <h1>Sobre mim</h1>
             <img
               className="photo"
-              src="src\assets\images\photo\about_image.jpg"
+              src="https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732536/images/photo/een3qruu65vsmt6yhoni.jpg"
               alt="profile_image"
             />
           </div>

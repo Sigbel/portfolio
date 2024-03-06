@@ -5,27 +5,26 @@ import "./Navbar.css";
 import { nav_hamburguer } from "../../../utils/hamburguer.js";
 
 const Navbar = () => {
-  const path = "http://localhost:5173/";
 
   return (
     <>
       <header>
         <nav className="navbar">
-          <a href={path + "#"}>
+          <a href="/#">
             <img
-              src="src\assets\images\icons\hbs_ico.svg"
+              src="https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732536/images/icons/otojdxbvd0ob8zt9zpp5.svg"
               alt="hbs"
               id="logo_ico"
             />
           </a>
           <ul className="navbar-items">
-            <a href={path + "#about"} className="nav-link">
+            <a href="/#about" className="nav-link">
               <li className="nav-item">Sobre</li>
             </a>
-            <a href={path + "#projects"} className="nav-link">
+            <a href="/#projects" className="nav-link">
               <li className="nav-item">Projetos</li>
             </a>
-            <a href={path + "#contact"} className="nav-link">
+            <a href="/#contact" className="nav-link">
               <li className="nav-item">Contato</li>
             </a>
             <a

@@ -4,6 +4,9 @@ import "./App.css";
 // Router
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+// Hooks
+import { useEffect } from "react";
+
 // Pages
 import Home from "./pages/Home/Home";
 import OtherProjects from "./pages/OtherProjects/OtherProjects";
@@ -12,12 +15,14 @@ import MoreAbout from "./pages/MoreAbout/MoreAbout";
 // Components
 import Footer from "./components/Common/Footer/Footer";
 import Navbar from "./components/Common/Navbar/Navbar";
+import ScrollTop from "./components/Common/ScrollTop/ScrollTop";
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
       <BrowserRouter>
+        <ScrollTop></ScrollTop>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
           <Route

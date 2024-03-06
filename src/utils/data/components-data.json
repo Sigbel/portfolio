@@ -4,7 +4,7 @@
       "title": "Txt Layout Validator",
       "content": "Validação vertical de dados em arquivos de layouts bancários",
       "image": {
-        "url": "src/assets/portfolio/b_layout_v.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732536/portfolio/l5cwvka1yaxzqxq3neft.png",
         "alt": "Txt Validator"
       },
       "link": "https://github.com/Sigbel/Txt_File_Validator"
@@ -13,7 +13,7 @@
       "title": "Zaturi (Discord Bot)",
       "content": "Bot de discord para um monitoramento efetivo de investimentos e criptoativos",
       "image": {
-        "url": "src/assets/portfolio/zaturi.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732536/portfolio/vpzikxxxyyoxkzxsm85d.png",
         "alt": "Zaturi"
       },
       "link": "https://github.com/Sigbel/Zaturi_Discord_Bot"
@@ -22,7 +22,7 @@
       "title": "Booking Manager",
       "content": "Aplicação para gestão precisa de quartos e reservas de hotéis utilizando QtDesigner",
       "image": {
-        "url": "src/assets/portfolio/booking_manager.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732535/portfolio/jgu8d9d6aqti0esbp4p7.png",
         "alt": "Booking Manager"
       },
       "link": "https://github.com/Sigbel/Booking_Manager"
@@ -31,7 +31,7 @@
       "title": "CRUD with C#",
       "content": "CRUD em C# com SQL Server, utilizando interface gráfica.",
       "image": {
-        "url": "src/assets/portfolio/crud_c_sql_server.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732535/portfolio/mcig1lju0plx8jiy1epq.png",
         "alt": "CRUD with C#"
       },
       "link": "https://github.com/Sigbel/CRUD_with_SQLServer"
@@ -40,7 +40,7 @@
       "title": "Personal Portfolio",
       "content": "Um demonstrativo de minhas capacitações e projetos feitos.",
       "image": {
-        "url": "src/assets/portfolio/hb_portfolio.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732536/portfolio/u1hxosozzmrezr1lozw9.png",
         "alt": "Portfolio"
       },
       "link": "https://github.com/Sigbel/sigbel.github.io"
@@ -49,7 +49,7 @@
       "title": "Python Training Projects",
       "content": "Projetos para fixação sobre a linguagem.",
       "image": {
-        "url": "src/assets/portfolio/python_training_projects.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732535/portfolio/kmrdbhgum17gyhvnj3a2.png",
         "alt": "Training Projects"
       },
       "link": "https://github.com/Sigbel/Python_Training_Projects"
@@ -60,7 +60,7 @@
       "title": "Txt Layout Validator",
       "content": "Validação vertical de dados em arquivos de layouts bancários",
       "image": {
-        "url": "src/assets/portfolio/b_layout_v.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732536/portfolio/l5cwvka1yaxzqxq3neft.png",
         "alt": "Txt Validator"
       },
       "link": "https://github.com/Sigbel/Txt_File_Validator",
@@ -70,7 +70,7 @@
       "title": "Zaturi (Discord Bot)",
       "content": "Bot de discord para um monitoramento efetivo de investimentos e criptoativos",
       "image": {
-        "url": "src/assets/portfolio/zaturi.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732536/portfolio/vpzikxxxyyoxkzxsm85d.png",
         "alt": "Zaturi"
       },
       "link": "https://github.com/Sigbel/Zaturi_Discord_Bot",
@@ -80,7 +80,7 @@
       "title": "Booking Manager",
       "content": "Aplicação para gestão precisa de quartos e reservas de hotéis utilizando QtDesigner",
       "image": {
-        "url": "src/assets/portfolio/booking_manager.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732535/portfolio/jgu8d9d6aqti0esbp4p7.png",
         "alt": "Booking Manager"
       },
       "link": "https://github.com/Sigbel/Booking_Manager",
@@ -90,7 +90,7 @@
       "title": "CRUD with C#",
       "content": "CRUD em C# com SQL Server, utilizando interface gráfica.",
       "image": {
-        "url": "src/assets/portfolio/crud_c_sql_server.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732535/portfolio/mcig1lju0plx8jiy1epq.png",
         "alt": "CRUD with C#"
       },
       "link": "https://github.com/Sigbel/CRUD_with_SQLServer",
@@ -100,7 +100,7 @@
       "title": "Personal Portfolio",
       "content": "Um demonstrativo de minhas capacitações e projetos feitos.",
       "image": {
-        "url": "src/assets/portfolio/hb_portfolio.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732536/portfolio/u1hxosozzmrezr1lozw9.png",
         "alt": "Portfolio"
       },
       "link": "https://github.com/Sigbel/sigbel.github.io",
@@ -110,7 +110,7 @@
       "title": "Python Training Projects",
       "content": "Projetos para fixação sobre a linguagem.",
       "image": {
-        "url": "src/assets/portfolio/python_training_projects.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732535/portfolio/kmrdbhgum17gyhvnj3a2.png",
         "alt": "Training Projects"
       },
       "link": "https://github.com/Sigbel/Python_Training_Projects",
@@ -120,7 +120,7 @@
       "title": "Calculator with Python",
       "content": "Calculadora simples feita em Python",
       "image": {
-        "url": "src/assets/portfolio/calculator-figure.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732535/portfolio/et9lsorzkzukuqx3y68p.png",
         "alt": "calculator"
       },
       "link": "https://github.com/Sigbel/Calculator_with_Python",
@@ -130,7 +130,7 @@
       "title": "Technical Report Generator",
       "content": "Aplicação para a geração de relatórios focados em bem-estar e segurança no trabalho",
       "image": {
-        "url": "src/assets/portfolio/technical_report-figure.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732536/portfolio/q5q5xtkknf9mezsx5iq8.png",
         "alt": "Technical Report"
       },
       "link": "https://github.com/Sigbel/Technical_Report_Generator",
@@ -140,7 +140,7 @@
       "title": "Redimensionador",
       "content": "Uma interface para redimensionamento de imagens",
       "image": {
-        "url": "src/assets/portfolio/redimensionador-figure.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732535/portfolio/eahtheejkwjho9edp8xb.png",
         "alt": "Redimensionador"
       },
       "link": "https://github.com/Sigbel/Redimensionador-de-Imagens",
