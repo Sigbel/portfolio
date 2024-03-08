@@ -22,12 +22,11 @@
   }
 
   .skill_description {
-    /* width: 100%; */
     justify-content: center;
     flex-wrap: nowrap;
   }
 
   &:hover {
-    border-color: #f3bd8a;
+    transform: scale(1.02);
   }
 }

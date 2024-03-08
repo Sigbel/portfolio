@@ -69,6 +69,7 @@ const Card = ({ title, content, image = null, link, page, filter }) => {
         direction="column"
         datatype={filter}
         minW="270px"
+        h="350px"
         flexGrow="1"
         flexBasis="calc(17% - 10px)"
         borderRadius="8px"
