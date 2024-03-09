@@ -24,7 +24,6 @@ const Home = () => {
     setVercelUrl(process.env.VERCEL_URL);
   }, []);
 
-  console.log(vercelURL)
   return (
     <div className="container_initial">
       <Background></Background>

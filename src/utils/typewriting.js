@@ -13,7 +13,7 @@ const typewriting = () => {
     _PART_INDEX++;
 
     if (text === _CONTENT[_PART]) {
-      _CURSOR.style.display = "none";
+      _CURSOR.style.display = "inline_block";
       clearInterval(_INTERNAL_VAL);
       setTimeout(() => {
         _INTERNAL_VAL = setInterval(Delete, 50);

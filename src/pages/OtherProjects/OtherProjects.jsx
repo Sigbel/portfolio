@@ -16,7 +16,6 @@ const OtherProjects = () => {
 
   const location = useLocation()
 
-  console.log(location.pathname)
   return (
     <div>
       <Background_P></Background_P>

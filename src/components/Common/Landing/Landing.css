@@ -55,7 +55,7 @@
   letter-spacing: 0.15em;
   font-size: 5em;
   text-wrap: nowrap;
-  height: 9vw;
+  height: 7vw;
   font-weight: 400;
 }
 
@@ -63,7 +63,7 @@
   display: inline-block;
   vertical-align: middle;
   width: 3px;
-  height: 5vw;
+  /* height: 5vw; */
   background-color: #5b7a88;
   animation: blink-caret 0.75s step-end infinite;
 }
