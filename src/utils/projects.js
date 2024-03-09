@@ -10,12 +10,12 @@ const filter_projects = (filterType) => {
       if (!filteredDivsArray.includes(div)) {
         div.style.display = "none";
       } else {
-        div.style.display = "block";
+        div.style.display = "flex";
       }
     });
   } else {
     document.querySelectorAll("div[datatype]").forEach((div) => {
-      div.style.display = "block";
+      div.style.display = "flex";
     });
   }
 };
