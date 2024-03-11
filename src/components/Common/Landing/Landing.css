@@ -63,7 +63,6 @@
   display: inline-block;
   vertical-align: middle;
   width: 3px;
-  /* height: 5vw; */
   background-color: #5b7a88;
   animation: blink-caret 0.75s step-end infinite;
 }
