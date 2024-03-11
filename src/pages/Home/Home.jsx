@@ -17,12 +17,12 @@ import Sidenav from "../../components/Common/SideNav/Sidenav";
 
 const Home = () => {
 
-  // const [vercelURL, setVercelUrl] = useState("")
+  const [vercelURL, setVercelUrl] = useState("")
 
   useEffect(() => {
     typewriting();
 
-    // setVercelUrl(process.env.VERCEL_URL);
+    setVercelUrl(process.env.VERCEL_URL);
   }, [location]);
 
   return (

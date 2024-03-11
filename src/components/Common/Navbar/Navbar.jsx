@@ -1,4 +1,7 @@
+// Hooks
 import { useState, useEffect } from "react";
+
+// Styles
 import "./Navbar.css";
 
 const Navbar = () => {
