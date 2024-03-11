@@ -1,10 +1,12 @@
-// Styles
+import React, { useState } from "react";
 import "./Navbar.css";
 
-// Functions
-import { nav_hamburguer } from "../../../utils/hamburguer.js";
-
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <>
@@ -17,7 +19,15 @@ const Navbar = () => {
               id="logo_ico"
             />
           </a>
-          <ul className="navbar-items">
+          <div
+            className={`hamburguer ${isOpen ? "active" : ""}`}
+            onClick={toggleMenu}
+          >
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+          </div>
+          <ul className={`navbar-items ${isOpen ? "active" : ""}`}>
             <a href="/#about" className="nav-link">
               <li className="nav-item">Sobre</li>
             </a>
@@ -35,16 +45,6 @@ const Navbar = () => {
               <li className="nav-item cv_btn">Currículo</li>
             </a>
           </ul>
-          <div
-            className="hamburguer"
-            onClick={() => {
-              nav_hamburguer();
-            }}
-          >
-            <span className="bar"></span>
-            <span className="bar"></span>
-            <span className="bar"></span>
-          </div>
         </nav>
       </header>
     </>

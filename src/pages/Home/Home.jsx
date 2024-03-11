@@ -16,13 +16,14 @@ import Contact from "../../components/Common/Contact/Contact";
 import Sidenav from "../../components/Common/SideNav/Sidenav";
 
 const Home = () => {
+
   const [vercelURL, setVercelUrl] = useState("")
 
   useEffect(() => {
     typewriting();
 
     setVercelUrl(process.env.VERCEL_URL);
-  }, []);
+  }, [location]);
 
   return (
     <div className="container_initial">

@@ -1,5 +1,5 @@
 // Chakra Ui
-import { Box, Center, VStack } from "@chakra-ui/react";
+import { Box, Center } from "@chakra-ui/react";
 
 // Carousel data
 import { cards_carrousel } from "../../../utils/data/components-data.json";

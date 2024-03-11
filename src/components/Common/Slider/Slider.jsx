@@ -1,6 +1,6 @@
 // Swiper
-import { A11y, Navigation, Pagination } from "swiper/modules";
-import { Swiper } from "swiper/react";
+import {Swiper} from "swiper/react";
+import {Navigation, Pagination} from "swiper/modules"
 
 // Styles
 import "swiper/css";
@@ -10,7 +10,7 @@ import "./Slider.css";
 
 export default function Slider({ settings, children }) {
   return (
-    <Swiper modules={[Navigation, Pagination, A11y]} {...settings}>
+    <Swiper modules={[Navigation, Pagination]} {...settings}>
       {children}
     </Swiper>
   );

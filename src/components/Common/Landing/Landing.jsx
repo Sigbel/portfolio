@@ -1,22 +1,7 @@
 // Styles
 import "./Landing.css";
 
-// Hooks
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
-
-// Functions
-import scroll_fadeout from "../../../utils/fade_out";
-
 const Landing = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    if (location.pathname === "/") {
-      scroll_fadeout();
-    }
-  }, []);
-
   return (
     <section id="landing">
       <div className="container_landing">

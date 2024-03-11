@@ -1,4 +1,5 @@
 // Styles
+import { useLocation } from "react-router-dom";
 import { customScrollbar } from "../../../styles/styles";
 
 // Chakra Ui
@@ -12,8 +13,10 @@ import {
   VStack,
 } from "@chakra-ui/react";
 
-const Card = ({ title, content, image = null, link, page, filter }) => {
-  if (page === "/") {
+const Card = ({ title, content, image = null, link, filter }) => {
+  const location = useLocation()
+
+  if (location.pathname === "/") {
     return (
       <Flex
         direction="column"
@@ -63,7 +66,7 @@ const Card = ({ title, content, image = null, link, page, filter }) => {
         </Flex>
       </Flex>
     );
-  } else if (page === "/projects") {
+  } else if (location.pathname === "/projects") {
     return (
       <Flex
         direction="column"
