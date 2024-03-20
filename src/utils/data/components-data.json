@@ -28,11 +28,11 @@
       "link": "https://github.com/Sigbel/Booking_Manager"
     },
     {
-      "title": "CRUD with C#",
+      "title": "CRUD with SQLServer",
       "content": "CRUD em C# com SQL Server, utilizando interface gráfica.",
       "image": {
         "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1710555528/portfolio/lzrfqfsi2tmbdlshfw5t.png",
-        "alt": "CRUD with C#"
+        "alt": "CRUD with SQLServer"
       },
       "link": "https://github.com/Sigbel/CRUD_with_SQLServer"
     },
@@ -118,9 +118,9 @@
     },
     {
       "title": "Calculator with Python",
-      "content": "Calculadora simples feita em Python",
+      "content": "Calculadora simples feita em Python e PyQt5",
       "image": {
-        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732535/portfolio/et9lsorzkzukuqx3y68p.png",
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1710903247/portfolio/ebaba3w4tosgcit8g02u.png",
         "alt": "calculator"
       },
       "link": "https://github.com/Sigbel/Calculator_with_Python",
