@@ -87,11 +87,11 @@
       "filter": "application"
     },
     {
-      "title": "CRUD with C#",
+      "title": "CRUD with SQLServer",
       "content": "CRUD em C# com SQL Server, utilizando interface gráfica.",
       "image": {
         "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1710555528/portfolio/lzrfqfsi2tmbdlshfw5t.png",
-        "alt": "CRUD with C#"
+        "alt": "CRUD with SQLServer"
       },
       "link": "https://github.com/Sigbel/CRUD_with_SQLServer",
       "filter": "application"
