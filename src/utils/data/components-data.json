@@ -37,11 +37,11 @@
       "link": "https://github.com/Sigbel/CRUD_with_SQLServer"
     },
     {
-      "title": "Personal Portfolio",
-      "content": "Um demonstrativo de minhas capacitações e projetos feitos.",
+      "title": "Aweasome Portfolio",
+      "content": "Um template completamente responsivo de um portfolio para exibição de projetos e skills.",
       "image": {
-        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732536/portfolio/u1hxosozzmrezr1lozw9.png",
-        "alt": "Portfolio"
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1711049560/portfolio/wjkx28i0zt6fbpuh2i3j.png",
+        "alt": "Template Portfolio"
       },
       "link": "https://github.com/Sigbel/sigbel.github.io"
     },
@@ -97,11 +97,11 @@
       "filter": "application"
     },
     {
-      "title": "Personal Portfolio",
-      "content": "Um demonstrativo de minhas capacitações e projetos feitos.",
+      "title": "Aweasome Portfolio",
+      "content": "Um template completamente responsivo de um portfolio para exibição de projetos e skills.",
       "image": {
-        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732536/portfolio/u1hxosozzmrezr1lozw9.png",
-        "alt": "Portfolio"
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1711049560/portfolio/wjkx28i0zt6fbpuh2i3j.png",
+        "alt": "Template Portfolio"
       },
       "link": "https://github.com/Sigbel/sigbel.github.io",
       "filter": "web"
