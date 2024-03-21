@@ -145,6 +145,16 @@
       },
       "link": "https://github.com/Sigbel/Redimensionador-de-Imagens",
       "filter": "utility"
+    },
+    {
+      "title": "Personal Portfolio",
+      "content": "Meu portfolio pessoal onde demonstro meus projetos e skills.",
+      "image": {
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1710021539/portfolio/pkuo9upaclbr8fihsbpx.png",
+        "alt": "Personal_Portfolio"
+      },
+      "link": "https://github.com/Sigbel/portfolio",
+      "filter": "web"
     }
   ]
 }
