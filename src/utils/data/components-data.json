@@ -1,13 +1,14 @@
 {
   "cards_carrousel": [
     {
-      "title": "Txt Layout Validator",
-      "content": "Validação vertical de dados em arquivos de layouts bancários",
+      "title": "Technical Report Generator",
+      "content": "Aplicação para a geração de relatórios focados em bem-estar e segurança no trabalho",
       "image": {
-        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732536/portfolio/l5cwvka1yaxzqxq3neft.png",
-        "alt": "Txt Validator"
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732536/portfolio/q5q5xtkknf9mezsx5iq8.png",
+        "alt": "Technical Report"
       },
-      "link": "https://github.com/Sigbel/Txt_File_Validator"
+      "link": "https://github.com/Sigbel/Technical_Report_Generator",
+      "filter": "application"
     },
     {
       "title": "Zaturi (Discord Bot)",
@@ -57,16 +58,6 @@
   ],
   "cards_showcase": [
     {
-      "title": "Txt Layout Validator",
-      "content": "Validação vertical de dados em arquivos de layouts bancários",
-      "image": {
-        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732536/portfolio/l5cwvka1yaxzqxq3neft.png",
-        "alt": "Txt Validator"
-      },
-      "link": "https://github.com/Sigbel/Txt_File_Validator",
-      "filter": "utility"
-    },
-    {
       "title": "Zaturi (Discord Bot)",
       "content": "Bot de discord para um monitoramento efetivo de investimentos e criptoativos",
       "image": {
@@ -105,6 +96,16 @@
       },
       "link": "https://sigbel.github.io/awesome_portfolio/",
       "filter": "web"
+    },
+    {
+      "title": "Txt Layout Validator",
+      "content": "Validação vertical de dados em arquivos de layouts bancários",
+      "image": {
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1709732536/portfolio/l5cwvka1yaxzqxq3neft.png",
+        "alt": "Txt Validator"
+      },
+      "link": "https://github.com/Sigbel/Txt_File_Validator",
+      "filter": "utility"
     },
     {
       "title": "Python Training Projects",
