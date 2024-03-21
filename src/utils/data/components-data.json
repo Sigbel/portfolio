@@ -38,12 +38,12 @@
     },
     {
       "title": "Aweasome Portfolio",
-      "content": "Um template completamente responsivo de um portfolio para exibição de projetos e skills.",
+      "content": "Um template completamente responsivo de um site completo focando portfolio para exibição de projetos e skills.",
       "image": {
         "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1711049560/portfolio/wjkx28i0zt6fbpuh2i3j.png",
         "alt": "Template Portfolio"
       },
-      "link": "https://github.com/Sigbel/sigbel.github.io"
+      "link": "https://sigbel.github.io/awesome_portfolio/"
     },
     {
       "title": "Python Training Projects",
@@ -98,12 +98,12 @@
     },
     {
       "title": "Aweasome Portfolio",
-      "content": "Um template completamente responsivo de um portfolio para exibição de projetos e skills.",
+      "content": "Um template completamente responsivo de um site completo focando portfolio para exibição de projetos e skills.",
       "image": {
         "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1711049560/portfolio/wjkx28i0zt6fbpuh2i3j.png",
         "alt": "Template Portfolio"
       },
-      "link": "https://github.com/Sigbel/sigbel.github.io",
+      "link": "https://sigbel.github.io/awesome_portfolio/",
       "filter": "web"
     },
     {
