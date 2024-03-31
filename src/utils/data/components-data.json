@@ -156,6 +156,16 @@
       },
       "link": "https://github.com/Sigbel/portfolio",
       "filter": "web"
+    },
+    {
+      "title": "Fake Store Redux",
+      "content": "Uma aplicação web para capturar dados da Fake Store API e gerenciar contextos através de React Redux.",
+      "image": {
+        "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1711854663/portfolio/nhmdxffjr7zfryhm3dkd.png",
+        "alt": "Fake_Store_Redux"
+      },
+      "link": "https://github.com/Sigbel/fake-store-redux",
+      "filter": "web"
     }
   ]
 }
