@@ -168,8 +168,8 @@
       "filter": "web"
     },
     {
-      "title": "CSV/DataBank - Lambda AWS",
-      "content": "Leitura e transferência de dados de CSV para SQLite utilizando uma função Lambda da AWS.",
+      "title": "CSV/SQLite - Lambda AWS",
+      "content": "Leitura e conversão de dados de CSV para SQLite utilizando uma função Lambda da AWS.",
       "image": {
         "url": "https://res.cloudinary.com/dvqvv2bkq/image/upload/v1712111591/portfolio/ccssfy6ca6t5sdv3apoz.png",
         "alt": "CSV-Conv-Lambda-AWS"
